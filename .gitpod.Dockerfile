@@ -1,6 +1,7 @@
 # This Dockerfile constructs a minimal environment in which Grain programs can be compiled.
 # The environment is only meant to build Grain programs, not develop the compiler.
 
-FROM node:16-slim
+FROM gitpod/workspace-full
+
 
 

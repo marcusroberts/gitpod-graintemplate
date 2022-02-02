@@ -1,4 +1,4 @@
-# A Grain image for Gitpod.io
+# A Grain template for Gitpod.io
 
 A sample template for Grain and Gitpod that launches the Gitpod workspace using a custom image prebuild with the Grain compiler ready to go.
 

@@ -1,0 +1,6 @@
+let print_name = (name) => {
+  print("Hello, I'm Grain.  Nice to meet you")
+  print(name)
+}
+
+print_name("GitPod")

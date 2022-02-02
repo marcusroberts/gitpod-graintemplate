@@ -5,8 +5,8 @@ FROM ghcr.io/grain-lang/grain:latest-slim
 
 USER root
 
-RUN groupadd --gid 33333 gitpod \
-  && useradd -m --shell /bin/bash --group gitpod -u 33333 gitpod \
-  && chown -R gitpod:gitpod /grain
+RUN groupadd --gid 33333 gitpod && \
+  useradd -m --shell /bin/bash --group gitpod -u 33333 gitpod && \
+  chown -R gitpod:gitpod /grain
 
 USER gitpod

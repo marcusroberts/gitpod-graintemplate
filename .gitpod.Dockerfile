@@ -1,7 +1,7 @@
 # This Dockerfile constructs a minimal environment in which Grain programs can be compiled.
 # The environment is only meant to build Grain programs, not develop the compiler.
 
-FROM ghcr.io/grain-lang/grain:0.5.1-slim
+FROM ghcr.io/grain-lang/grain:latest-slim
 
 USER root
 
